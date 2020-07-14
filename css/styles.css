@@ -54,6 +54,9 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+.section {
+    padding-bottom: 94px;
+}
 /* Header */
 .header .container {
     display: flex;
@@ -95,7 +98,6 @@ body {
 }
 
 .header {
-       background-color: teal;
 }
 .header .container {
     align-items: center;
@@ -139,8 +141,6 @@ font-style: normal;
  /* Hero */
  .hero {
      text-align: center;
-     margin-bottom: 94px;
-        background-color: teal;
  }
  .hero-title {
      margin: 0px;
@@ -152,6 +152,7 @@ line-height: 1.36;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 padding-top: 200px;
+padding-bottom: 30px;
 /* color: #FFFFFF; */
  }
 
@@ -176,8 +177,6 @@ margin-bottom: 200px;
  /* about-us */
 
 .about-us {
-    margin-bottom: 94px;
-    background-color: tomato;
 }
 
 .about-us .list {
@@ -218,12 +217,19 @@ letter-spacing: 0.03em;
 
 /* our-work */
 .our-work {
-    margin-bottom: 94px;
 }
 
+.our-work-title {
+    margin-bottom: 50px;
+}
 .our-work-list {
     display: flex;
 }
+.our-work-list-item:not(:last-child){
+    margin-right: 30px;
+}
+
+
 .our-work-text {
 font-weight: 700;
 font-size: 14px;
@@ -234,13 +240,39 @@ letter-spacing: 0.03em;
 }
 
 /* team */
+
+.team-list {
+    display: flex;
+    
+}
+
+.team-section {
+    background-color: #F5F4FA;
+}
+.img {
+    margin-bottom: 30px;
+}
+.team-list-item {
+    background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
+}
+.team-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
 .team-title {
+    padding-top: 94px;
+    margin-bottom: 50px;
+}
+
+.team-title-item {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-color);
+margin-bottom: 10px;
 }
 .team-text {
 font-weight: normal;
@@ -249,8 +281,32 @@ line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--text-color); 
+margin-bottom: 16px;
 }
+.social-list-link {
+    display: flex;
+    justify-content: center;
+    }
+.social-list-item {
+    display: flex;
+    }
+.social-list-item-link {
+    display: flex;
+}
+.social-list-item:not(:last-child) {
+    margin-right: 10px;
+}
+
 /* regular customers */
+.clients-title {
+    padding-top: 94px;
+    margin-bottom: 50px;
+}
+.clients-list {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /* footer */
 .studio-white {
