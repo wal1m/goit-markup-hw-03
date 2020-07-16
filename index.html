@@ -83,9 +83,10 @@
                 <p class="our-work-text">Дизайнерские решения</p>
               </li>
             </ul>
+            </div>
             </section>
-          </div>
-      <!-- Наша команда -->
+
+                <!-- Наша команда -->
       <section class="team section team-section">
         <div class="container">
           <h2 class="team-title title">Наша команда</h2>
@@ -174,23 +175,23 @@
         <div class="container">
           <h2 class="clients-title title">Постоянные клиенты</h2>
           <ul class="clients-list list">
-            <li>
-              <a href="" aria-label="ссылка на клиент 1"><img src="./images/logo-1.svg" alt=""></a>
+            <li class="clients-list-item">
+              <a class="clients-list-item-link" href="" aria-label="ссылка на клиент 1"><img src="./images/logo-1.svg" alt=""></a>
             </li>
-            <li>
-              <a href="" aria-label="ссылка на клиент 2"><img src="./images/logo-2.svg" alt=""></a>
+            <li class="clients-list-item">
+              <a class="clients-list-item-link" href="" aria-label="ссылка на клиент 2"><img src="./images/logo-2.svg" alt=""></a>
             </li>
-            <li>
-              <a href="" aria-label="ссылка на клиент 3"><img src="./images/logo-3.svg" alt=""></a>
+            <li class="clients-list-item">
+              <a class="clients-list-item-link" href="" aria-label="ссылка на клиент 3"><img src="./images/logo-3.svg" alt=""></a>
             </li>
-            <li>
-              <a href="" aria-label="ссылка на клиент 4"><img src="./images/logo-4.svg" alt=""></a>
+            <li class="clients-list-item">
+              <a class="clients-list-item-link" href="" aria-label="ссылка на клиент 4"><img src="./images/logo-4.svg" alt=""></a>
             </li>
-            <li>
-              <a href="" aria-label="ссылка на клиент 5"><img src="./images/logo-5.svg" alt=""></a>
+            <li class="clients-list-item">
+              <a class="clients-list-item-link" href="" aria-label="ссылка на клиент 5"><img src="./images/logo-5.svg" alt=""></a>
             </li>
-            <li>
-              <a href="" aria-label="ссылка на клиент 6"><img src="./images/logo-6.svg" alt=""></a>
+            <li class="clients-list-item">
+              <a class="clients-list-item-link" href="" aria-label="ссылка на клиент 6"><img src="./images/logo-6.svg" alt=""></a>
             </li>
           </ul>
         </div>
@@ -199,8 +200,9 @@
     </main>
     <!-- Подвал -->
     <footer class="footer">
-      <div>
-           <a class="logo-link link" href="./index.html">Web <span class="studio-white">Studio</span></a>
+      <div class="footer-container container">
+        <div class="footer-block-address">
+          <a class="logo-link link" href="./index.html">Web <span class="studio-white">Studio</span></a>
           <ul class="list">
             <li>
               <address class="footer-address address">
@@ -218,29 +220,30 @@
               </address>
             </li>
           </ul>
-      </div>
-      <div>
-        <b class="footer-join">присоединяйтесь</b>
-        <ul>
-          <li class="social-link-item">
-            <a href="" aria-label="иконка инстаграма"></a>
-          </li>
-          <li class="social-link-item">
-            <a href="" aria-label="иконка твитера"></a>
-          </li>
-          <li class="social-link-item">
-            <a href="" aria-label="иконка фейсбука"></a>
-          </li>
-          <li class="social-link-item">
-            <a href="" aria-label="иконка ликедина"></a>
-          </li>
-        </ul>
-      </div>
-      <!-- Форма -->
-      <div>
-        <b>Подпишитесь на рассылку</b>
-        <p><input name="E-mail" placeholder="E-mail"></p>
-        <button>Подписаться <img src="./images/icon-send.svg" alt="самолетик"></button>
+        </div>
+        <div class="footer-block-join">
+          <b class="footer-join">присоединяйтесь</b>
+          <ul class="footer-social-list-link list">
+            <li class="social-link-item">
+              <a class="link" href="" aria-label="иконка инстаграма">и</a>
+            </li>
+            <li class="social-link-item">
+              <a class="link" href="" aria-label="иконка твитера">т</a>
+            </li>
+            <li class="social-link-item">
+              <a class="link" href="" aria-label="иконка фейсбука">ф</a>
+            </li>
+            <li class="social-link-item">
+              <a class="link" href="" aria-label="иконка ликедина">л</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Форма -->
+        <div class="footer-forma">
+          <b>Подпишитесь на рассылку</b>
+          <p><input name="E-mail" placeholder="E-mail"></p>
+          <button>Подписаться <img src="./images/icon-send.svg" alt="самолетик"></button>
+        </div>
       </div>
     </footer>
   </body>
